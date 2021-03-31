@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
 <script src="https://kit.fontawesome.com/bc426ad9b1.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
@@ -11,11 +12,11 @@
 
 <body>
 <div class="container">
-  <div class="header"> 
+  <header> 
 	<a href="index.html"><h1>Michael's Blog</h1></a> 
-  </div>
+  </header>
   <div class="main-grid">
-    <div class="sidebar">
+    <aside>
       <div class="about card">
         <h3>About</h3>
         <div class="card-content">
@@ -34,26 +35,41 @@
 		    <a href=""><i class="fas fa-basketball-ball"></i></i></a> 
 	  	</div>
       </div>
-    </div>
-    <div class="content">
-      <div class="hero"> <img src="img/port-town.jpg"/> </div>
+    </aside>
+    <article>
+      <div class="hero">
+	    <img src="img/port-town.jpg"/> 
+		<div class="caption">
+			<p>A beautiful town on the coast of the Mediterranean</p> 
+	    </div>  
+	  </div>
       <div class="article">
         <div class="title-info">
           <h2>Blog Headline</h2>
-          <p>By: Michael Cordero</p>
-          <p>March 29, 2021</p>
+		  <p>March 29, 2021</p>
+		  <div class="author-info">
+			<img class="avatar" src="img/helios.jpg"/>	
+			<div class="bio">
+			  <p class="name">Michael Cordero</p>
+			  <p class="info">An artist at heart, Michael enjoys the process of communicating and sharing stories. Michael is not a cat. That is Helios, his child.</p>  
+			</div>  
+		  </div>  
         </div>
         <div class="copy">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus a pellentesque sit amet. Varius vel pharetra vel turpis nunc eget lorem. Tellus integer feugiat scelerisque varius morbi enim nunc. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Magna fermentum iaculis eu non. Pharetra magna ac placerat vestibulum lectus mauris. Nisl purus in mollis nunc sed id semper. Praesent tristique magna sit amet purus gravida quis. Turpis nunc eget lorem dolor sed. Viverra aliquet eget sit amet tellus cras adipiscing enim. Semper quis lectus nulla at volutpat diam ut. Convallis posuere morbi leo urna.</p>
+		  <blockquote>
+			  <p>It is a miracle that curiosity survives formal education.</p>
+			  <cite>Albert Einstein</cite>
+		  </blockquote>
           <p>Enim sed faucibus turpis in eu. Purus in mollis nunc sed id semper risus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Et netus et malesuada fames ac turpis. Donec ultrices tincidunt arcu non sodales neque sodales ut. Quis risus sed vulputate odio. In eu mi bibendum neque. Arcu non sodales neque sodales ut. Fames ac turpis egestas maecenas pharetra convallis posuere. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Tincidunt tortor aliquam nulla facilisi cras fermentum odio. Egestas congue quisque egestas diam in arcu cursus euismod quis. Bibendum est ultricies integer quis auctor elit sed vulputate. Diam ut venenatis tellus in. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Aliquam faucibus purus in massa tempor nec. Pulvinar pellentesque habitant morbi tristique senectus et netus. Viverra adipiscing at in tellus. Neque viverra justo nec ultrices dui sapien eget mi proin.</p>
           <p>Consectetur purus ut faucibus pulvinar elementum integer enim. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Non blandit massa enim nec dui nunc mattis enim ut. Arcu dui vivamus arcu felis. Eget nulla facilisi etiam dignissim diam quis. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Quis varius quam quisque id. Turpis massa sed elementum tempus egestas sed sed risus pretium. Dictum sit amet justo donec enim. Neque aliquam vestibulum morbi blandit cursus risus at. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus.</p>
         </div>
       </div>
-    </div>
+    </article>
   </div>
-  <div class="footer">
+  <footer>
     <p>Made with <i class="fas fa-heart"></i> by Michael Cordero</p>
-  </div>
+  </footer>
 </div>
 </body>
 </html>
