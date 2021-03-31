@@ -52,8 +52,10 @@ aside {
 	background-color: #353535;
 }
 article {
-    padding: 40px;
     order: 1;
+}
+.article {
+    padding: 0 40px;
 }
 .card img {
     width: 100%;
