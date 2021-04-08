@@ -168,11 +168,6 @@ button.btn.focus {
     margin: 1em 0;
 }
 
-.card-grid {
-    display: flex;
-    flex-direction: column;
-}
-
 .card h3 {
     background-color: #ffdf7f;
     padding: 20px;
