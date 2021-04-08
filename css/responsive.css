@@ -8,14 +8,16 @@
     display: grid;
     grid-template-columns: 30% 70%;
 }
+	
 aside {
     order: 1;
 }
+	
 article {
     order: 1;
 }
 
-	blockquote {margin: 32px 40px;}
+blockquote {margin: 32px 40px;}
 }
 
 @media (min-width: 1301px) {
@@ -23,20 +25,25 @@ article {
     display: grid;
     grid-template-columns: 20% 80%;
 }
+	
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
 }
+	
 .article {
     width: 80%;
     margin: 0 auto;
 }
+	
 aside {
     order: 1;
 }
+	
 article {
     order: 2;
 }
-	blockquote {margin: 32px 40px;}
+	
+blockquote {margin: 32px 40px;}
 }

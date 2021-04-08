@@ -9,22 +9,27 @@ body {
     box-sizing: border-box;
     font-size: 16px;
 }
+
 a {
     color: #ffdf7f;
     font-weight: 500;
     text-decoration: none;
     border-bottom: 1px solid #000;
 }
+
 .main-grid a:hover {
     color: #000;
     border-bottom: 1px solid #ffdf7f;
 }
+
 .social-flex a {
     border: none;
 }
+
 .social-flex a:hover {
 	border-bottom: none;
 }
+
 header {
     padding: 20px;
     background-color: #ffdf7f;
@@ -33,13 +38,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header h1 {
     margin: 0;
     color: #000;
 }
+
 header a {
     border-bottom: none;
 }
+
 header a:hover > header h1 {
     color: #000;
 }
@@ -47,6 +55,7 @@ header a:hover > header h1 {
 .main-grid {
     display: grid;
 }
+
 aside {
     padding: 40px;
     display: flex;
@@ -55,6 +64,7 @@ aside {
     order: 2;
 	background-color: #353535;
 }
+
 .article {
     padding: 0 40px;
 }
@@ -64,36 +74,44 @@ aside {
     display: block;
     transition: .4s ease;
 }
+
 .feat-img {
     overflow: hidden;
 }
+
 .featured { padding: 40px; }
 
 .featured .card:hover img {
     transform: scale(1.5);
 }
+
 .about.cover h3 {
     font-weight: 700;
     font-size: 1.5em;
 }
+
 .about.card {
     box-shadow: 4px 4px #ffdf7f;
     border: 3px solid #ffdf7f;
 	background-color: #fff;
 }
+
 .about p {
     margin-top: 0;
 }
+
 .card-content {
     padding: 20px;
     font-weight: 200;
 }
+
 .btn-container {
     display: flex;
     grid-gap: 20px;
     flex-direction: column;
     height: fit-content;
 }
+
 button.btn {
     font-size: 1.5em;
     padding: 12px;
@@ -103,58 +121,69 @@ button.btn {
     color: #ffdf7f;
 	transition: .4s ease;
 }
+
 button.btn:hover {
     background-color: #ffdf7f;
     color: #353535;
 }
+
 button.btn.focus:hover {
     background-color: #000;
     border: 2px solid #000;
 	color: #fff;
 }
+
 button.btn.focus {
     background-color: #ffdf7f;
     color: #353535;
 	transition: .4s ease;
 }
+
 .social i {
     font-size: 3em;
     color: #ffdf7f;
 	transition: transform .25s ease;
 }
+
 .social i:hover {
     color: #fff;
 	transform: translateY(-8px);
 }
+
 .social i:hover a {
 	border-bottom: none;
 }
+
 .social h3 {
     color: #ffdf7f;
 }
+
 .social-flex {
     display: flex;
     justify-content: space-evenly;
 }
+
 .featured .card {
     box-shadow: 0px 0px 16px #d6d6d6;
     margin: 1em 0;
 }
+
 .card-grid {
     display: flex;
     flex-direction: column;
 }
+
 .card h3 {
     background-color: #ffdf7f;
     padding: 20px;
     margin: 0;
 }
+
 p.date {
     font-weight: 500;
     color: #969696;
     font-size: .8em;
 }
-
 
 i.fas.fa-heart {
     color: red;
