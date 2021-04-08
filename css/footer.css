@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+	border-top: 4px solid #ffdf7f;
+}
+
+footer:hover i.fas.fa-heart {
+	animation: pulse 1s infinite;
+}
