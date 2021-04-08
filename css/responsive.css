@@ -10,11 +10,11 @@
 }
 	
 aside {
-    order: 2;
+    order: 1;
 }
 	
 article {
-    order: 1;
+    order: 2;
 }
 
 blockquote {margin: 32px 40px;}
